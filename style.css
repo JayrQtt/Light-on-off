@@ -1,0 +1,33 @@
+body{
+    background: white;
+}
+
+img{
+
+    width: 330px;
+    height: 550px;
+    margin-bottom: 100px;
+}
+
+.botton-section{
+   display: flex;
+   flex-direction: row;
+   gap: 50px;
+   flex-wrap: wrap;
+}
+
+button{
+    width: 120px;
+    height: 30px;
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
